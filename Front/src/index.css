@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+  --background-body: #f2f1f9;
+  --elements-color: #f8edf5;
+  --table-row: #cbbfc9;
+  --headers: #6d6273;
+  --button: #785b82;
+  --shadows: black 2px 2px 4px;
+  --table-radius: 8px;
+  --transparent: rgba(112, 128, 144, 0.6);
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
+  overflow-x: hidden;
+}
+
+.searchBar{
+  border-radius: 8px;
+  border:transparent;
+  display: inline-block;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  margin-inline: 20%;
+  padding: 4px 8px;
+  width: 60%;
+  width: minmax(200px, 600px);
+}
+
+.element{
+  background-color: var(--elements-color);
+}
+
+.shadowed, .element, .mainButton{
+  box-shadow: var(--shadows);
+}
+
+.table-wrapper{
+  max-height: 80vh;
+  overflow-y: scroll;
+  border-radius: var(--table-radius);
+}
+
+table{
+  border-collapse: collapse;
+  width: 90vw;
+}
+
+.header, thead{
+  background-color: var(--headers);
+}
+
+.header{
+  text-align: center;
+  padding: 12px;
+  color:white;
+  margin: 0;
+}
+
+thead{
+  position: sticky;
+  top: 0;
+  border: var(--headers);
+  color:white;
+}
+
+thead th{
+  padding: 12px 20px;
+}
+
+tbody td:not(:first-child){
+  text-align: center;
+}
+
+tbody td{
+  padding: 14px 16px;
+}
+
+tbody tr:nth-child(2n){
+  background-color: var(--table-row)
+}
+
+tr:hover, .checkInput:hover{
+  text-decoration: underline;
+}
+
+button{
+  cursor: pointer;
+  font:inherit;
+  padding: 8px 16px;
+  border: transparent;
+}
+
+.secondaryButton:hover{
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.mainButton{
+  background-color: var(--button);
+  color:white;
+}
+
+.mainButton:hover{
+  box-shadow: black 4px 4px 6px;
+}
+
+.cover{
+  position: fixed;
+  top:0;
+  left: 0;
+  height: 100svh;
+  width: 100svw;
+  background-color: var(--transparent);
+  display: grid;
+  place-content: center;
+}
+
+.detail-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap:8px;
+  margin-block: 8px;
+  box-sizing:border-box;
+  width: 90vw;
+}
+
+.detail-wrapper article{
+  padding-left: 20px;
+  box-sizing:border-box;
+
+}
+
+.skills-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  gap: 8px;
+  padding: 16px;
+}
+
+.checkInput{
+  display: flex;
+  align-items: center;
+}
+
+.checkInput:hover, .checkInput >:hover{
+  cursor:pointer;
+}
+
+.checkInput input{
+  height: 20px;
+  width: 20px;
+  background-color: var(--button)
+}
+
+.buttonContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.buttonContainer button{
+  width: 50%;
+}
+
+.messageBox{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  padding-top: 0;
+  border-radius:16px;
+}
+
+.messageBox .header{
+  border-radius:8px;
+}
+
+@media (width < 825px){
+  .detail-wrapper{
+    grid-template-columns: 1fr;
+  }
+}
+
+
+@media (width < 600px){
+  .disappear{
+    display: none;
+  }
+
+  .cover{
+    overflow-y: scroll;
+  }
+}
+
+@media (width < 320px){
+  .skills-wrapper{
+    gap:2px;
+  }
+  .cover{
+    overflow-x: hidden;
+  }
+
+  .detail-wrapper{
+    width: 100svw;
+  }
+}

@@ -1,0 +1,186 @@
+{
+    "participantes": [
+        {
+            "nombre": "Juan Pérez",
+            "Procedencia": "CDMX",
+            "Fecha de entrevista": "10/01/2024",
+            "Entrevistador": "Patricio Castellanos",
+            "Medio de postulación": "Correo",
+            "habilidades": [
+                "Java",
+                "JavaScript",
+                "React",
+                "Angular"
+            ]
+        },
+        {
+            "nombre": "Blanca Carretero",
+            "Procedencia": "Edo. Mex.",
+            "Fecha de entrevista": "08/01/2024",
+            "Entrevistador": "Patricio Castellanos",
+            "Medio de postulación": "LinkedIn",
+            "habilidades": [
+                "AWS",
+                "Elastic",
+                "PHP",
+                "Angular"
+            ]
+        },
+        {
+            "nombre": "Fernando Tello",
+            "Procedencia": "CDMX",
+            "Fecha de entrevista": "10/01/2024",
+            "Entrevistador": "Marisol Ibarra",
+            "Medio de postulación": "Correo",
+            "habilidades": [
+                "SQL",
+                "MongoDB",
+                "Azure",
+                "GCP"
+            ]
+        },
+        {
+            "nombre": "Emma Hernández",
+            "Procedencia": "Edo. Mex.",
+            "Fecha de entrevista": "09/01/2024",
+            "Entrevistador": "Marisol Ibarra",
+            "Medio de postulación": "LinkedIn",
+            "habilidades": [
+                "SQL",
+                "NodeJs",
+                "TypeScript",
+                "Angular"
+            ]
+        },
+        {
+            "nombre": "Andrés Alonso",
+            "Procedencia": "CDMX",
+            "Fecha de entrevista": "08/01/2024",
+            "Entrevistador": "Mohamed Seco",
+            "Medio de postulación": "Correo",
+            "habilidades": [
+                "JavaScript",
+                "React",
+                "MicroServices",
+                "Java"
+            ]
+        },
+        {
+            "nombre": "Feliciana Sola",
+            "Procedencia": "Edo. Mex.",
+            "Fecha de entrevista": "09/01/2024",
+            "Entrevistador": "Mohamed Seco",
+            "Medio de postulación": "LinkedIn",
+            "habilidades": [
+                "SQL",
+                "NodeJs",
+                "TypeScript",
+                "Angular"
+            ]
+        },
+        {
+            "nombre": "Eugenio Carrasco",
+            "Procedencia": "Edo. Mex.",
+            "Fecha de entrevista": "11/01/2024",
+            "Entrevistador": "Elena Bautista",
+            "Medio de postulación": "LinkedIn",
+            "habilidades": [
+                "Azure",
+                "MongoDB",
+                "NodeJs",
+                "React"
+            ]
+        },
+        {
+            "nombre": "Lara Fernández",
+            "Procedencia": "Edo. Mex.",
+            "Fecha de entrevista": "11/01/2024",
+            "Entrevistador": "Elena Bautista",
+            "Medio de postulación": "LinkedIn",
+            "habilidades": [
+                "Angular",
+                "Java",
+                "PHP",
+                "Azure"
+            ]
+        },
+        {
+            "nombre": "Eloy Novoa",
+            "Procedencia": "CDMX",
+            "Fecha de entrevista": "09/01/2024",
+            "Entrevistador": "Patricio Castellanos",
+            "Medio de postulación": "LinkedIn",
+            "habilidades": [
+                "SQL",
+                "NodeJs",
+                "TypeScript",
+                "Angular"
+            ]
+        },
+        {
+            "nombre": "Vanesa Talavera",
+            "Procedencia": "Edo. Mex.",
+            "Fecha de entrevista": "12/01/2024",
+            "Entrevistador": "Patricio Castellanos",
+            "Medio de postulación": "Correo",
+            "habilidades": [
+                "Angular",
+                "React",
+                "Elastic",
+                "AWS"
+            ]
+        },
+        {
+            "nombre": "Eloy Novoa",
+            "Procedencia": "Edo. Mex.",
+            "Fecha de entrevista": "09/01/2024",
+            "Entrevistador": "Marisol Ibarra",
+            "Medio de postulación": "LinkedIn",
+            "habilidades": [
+                "SQL",
+                "AWS",
+                "MongoDB",
+                "GCP"
+            ]
+        },
+        {
+            "nombre": "Jesus Gutiérrez",
+            "Procedencia": "CDMX",
+            "Fecha de entrevista": "10/01/2024",
+            "Entrevistador": "Marisol Ibarra",
+            "Medio de postulación": "Correo",
+            "habilidades": [
+                "JavaScript",
+                "Java",
+                "PHP",
+                "SQL"
+            ]
+        },
+        {
+            "nombre": "Miguel Lora",
+            "Procedencia": "Edo. Mex.",
+            "Fecha de entrevista": "12/01/2024",
+            "Entrevistador": "Mohamed Seco",
+            "Medio de postulación": "Correo",
+            "habilidades": [
+                "JavaScript",
+                "React",
+                "MicroServices",
+                "Java"
+            ]
+        },
+        {
+            "nombre": "Anahí Sánchez",
+            "Procedencia": "Edo. Mex.",
+            "Fecha de entrevista": "12/01/2024",
+            "Entrevistador": "Mohamed Seco",
+            "Medio de postulación": "Correo",
+            "habilidades": [
+                "Java",
+                "JavaScript",
+                "React",
+                "Angular"
+            ]
+        }
+    ]
+}
