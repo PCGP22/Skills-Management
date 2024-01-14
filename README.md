@@ -18,5 +18,5 @@ Esta práctica se realizó con las siguientes tecnologías:
 - Firebase
 - CSS
 
-<a href="">Puedes ver el video de documentación aquí </a> <br/>
+<a href="https://drive.google.com/file/d/1MlPWwbqKFmX7QaneG1RfRI5FVIkonKX0/view?usp=sharing">Puedes ver el video de documentación aquí </a> <br/>
 <a href="https://skills-management-frontend.vercel.app/">Puedes acceder a la versión desplegada dando click aquí </a>
